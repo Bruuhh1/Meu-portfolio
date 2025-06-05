@@ -48,8 +48,7 @@ body::-webkit-scrollbar{
 /*titulo neon------------------------------*/
 
 .titulo__neon{
-    color: #ffffff;
-    font-size: 3em;
+    color: white;
     margin-bottom: 20px;
     text-shadow:
     0 0 5px #fff,
@@ -125,7 +124,7 @@ body::-webkit-scrollbar{
 }
 
 .texto{
-    padding: 20px;
+    padding: 20px 27px;
     text-align: center;
     line-height: 1.2;
 }
@@ -148,8 +147,8 @@ body::-webkit-scrollbar{
 .card-container{
     display: flex;
     justify-content: center;
-    gap: 30px;
-    padding: 0 20px;
+    gap: 10px;
+    padding: 0 25px;
 }
 
 .card{
@@ -224,28 +223,26 @@ body::-webkit-scrollbar{
     text-shadow: 1px 1px 2px #427388; 
 }
 
+.mais__projetos{
+    text-align: center;
+    font-size: 1em;
+    margin: 25px 20px;
+    text-shadow: 4px 4px 4px var(--cor-neon);
+    animation: go-back 1s infinite alternate;
+}
+
 .contato, footer{
     background-color: #3B0F36;
 }
 
-.contato p {
-    text-align: center;
-    line-height: 1.2;
-    padding: 20px 10px;
+.titulo-pagina-contato{
+    padding-top: 20px;
 }
 
 .icones{
     display: flex;
     justify-content: center;
     gap: 25px;
-}
-
-.mais__projetos{
-    text-align: center;
-    font-size: 2em;
-    margin: 30px 20px;
-    text-shadow: 4px 4px 4px var(--cor-neon);
-    animation: go-back 1s infinite alternate;
 }
 
 .contato-icon{
@@ -258,9 +255,15 @@ body::-webkit-scrollbar{
     transition: .5s;
 }
 
+.contato p {
+    text-align: center;
+    line-height: 1.2;
+    padding: 20px 10px;
+}
+
 footer{
     text-align: center;
-    padding: 40px 0 25px 0;
+    padding: 30px 0 25px 0;
 }
 
 .btn-topo {
