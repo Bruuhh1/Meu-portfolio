@@ -4,4 +4,4 @@
 
 # 📂 Acesso ao projeto
 
-[Veja o projeto em funcionamento](https://bruuhh1.github.io/Projetoportfolio/).
+[Veja o projeto em funcionamento](https://bruuhh1.github.io/Meu-portfolio/).
