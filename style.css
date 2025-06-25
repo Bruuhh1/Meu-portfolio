@@ -149,6 +149,7 @@ body::-webkit-scrollbar{
     justify-content: center;
     gap: 10px;
     padding: 0 25px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -166,6 +167,10 @@ body::-webkit-scrollbar{
 .subtx{
     text-align: center;
     font-size: 0.8em;
+}
+
+#bootstrap{
+    font-size: 0.6em;
 }
 
 .lista__projetos{
@@ -482,6 +487,11 @@ footer{
     .subtx{
         font-size: 1.2em;
     }
+
+    #bootstrap{
+    font-size: 1.2em;
+    }
+
     
     .projetos{
         margin-top: 80px;
